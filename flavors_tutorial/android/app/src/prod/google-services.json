@@ -1,0 +1,118 @@
+{
+  "project_info": {
+    "project_number": "325140573166",
+    "project_id": "flutter-flavors-tutorial-cfb18",
+    "storage_bucket": "flutter-flavors-tutorial-cfb18.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:325140573166:android:f1c1e4cd8c1b69d00ffcff",
+        "android_client_info": {
+          "package_name": "br.com.tutorial.flavors_tutorial"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "325140573166-9i8lj4qbh8456ifn92pfi5n1lv90j08j.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCqzF6SG9-e7l8rmwiKkEEh2Q6w0NHUExE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "325140573166-9i8lj4qbh8456ifn92pfi5n1lv90j08j.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "325140573166-46hl1hj2atarknhpl6j0s6qqro085kfp.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "br.com.tutorial.flavorsTutorial"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:325140573166:android:3811c96577c504bf0ffcff",
+        "android_client_info": {
+          "package_name": "br.com.tutorial.flavors_tutorial.dev"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "325140573166-9i8lj4qbh8456ifn92pfi5n1lv90j08j.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCqzF6SG9-e7l8rmwiKkEEh2Q6w0NHUExE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "325140573166-9i8lj4qbh8456ifn92pfi5n1lv90j08j.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "325140573166-46hl1hj2atarknhpl6j0s6qqro085kfp.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "br.com.tutorial.flavorsTutorial"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:325140573166:android:f59dff37f52437670ffcff",
+        "android_client_info": {
+          "package_name": "br.com.tutorial.flavors_tutorial.qa"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "325140573166-9i8lj4qbh8456ifn92pfi5n1lv90j08j.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCqzF6SG9-e7l8rmwiKkEEh2Q6w0NHUExE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "325140573166-9i8lj4qbh8456ifn92pfi5n1lv90j08j.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "325140573166-46hl1hj2atarknhpl6j0s6qqro085kfp.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "br.com.tutorial.flavorsTutorial"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
