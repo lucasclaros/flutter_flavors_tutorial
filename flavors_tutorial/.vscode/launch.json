@@ -9,7 +9,6 @@
             "name": "Launch: DEV",
             "request": "launch",
             "type": "dart",
-            "flutterMode": "debug",
             "program": "lib/main_dev.dart",
             "args": [
                 "--flavor",
@@ -20,7 +19,6 @@
             "name": "Launch: QA",
             "request": "launch",
             "type": "dart",
-            "flutterMode": "profile",
             "program": "lib/main_qa.dart",
             "args": [
                 "--flavor",
@@ -31,7 +29,6 @@
             "name": "Launch: PROD",
             "request": "launch",
             "type": "dart",
-            "flutterMode": "release",
             "program": "lib/main_prod.dart",
             "args": [
                 "--flavor",
