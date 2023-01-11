@@ -1,6 +1,7 @@
+import 'package:flavors_tutorial/flavors_config.dart';
 import 'package:flutter/material.dart';
 
-void main() {
+void mainCommon() {
   runApp(const MyApp());
 }
 
@@ -11,10 +12,13 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'Flutter Demo',
+      debugShowCheckedModeBanner:
+          FlavorConfig.instance.envVariables['showDebuggerBanner'] ?? true,
       theme: ThemeData(
-        primarySwatch: Colors.blue,
+        primarySwatch:
+            FlavorConfig.instance.envVariables['primaryColor'] ?? Colors.red,
       ),
-      home: const MyHomePage(title: 'Flutter Demo Home Page'),
+      home: MyHomePage(title: FlavorConfig.instance.appTitle),
     );
   }
 }
@@ -60,6 +64,7 @@ class _MyHomePageState extends State<MyHomePage> {
               '$_counter',
               style: Theme.of(context).textTheme.headline4,
             ),
+            Text('API Url: ${FlavorConfig.instance.apiEndpoint}'),
           ],
         ),
       ),
@@ -71,10 +76,13 @@ class _MyHomePageState extends State<MyHomePage> {
             tooltip: 'Increment',
             child: const Icon(Icons.add),
           ),
+          const SizedBox(
+            height: 10,
+          ),
           FloatingActionButton(
             onPressed: _decrementCounter,
             tooltip: 'Decrement',
-            child: const Icon(Icons.add),
+            child: const Icon(Icons.remove),
           ),
         ],
       ),
