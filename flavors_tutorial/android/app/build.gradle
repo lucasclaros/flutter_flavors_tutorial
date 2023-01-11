@@ -67,19 +67,16 @@ android {
         productFlavors {
             prod {
                 dimension "app_flavors"
-                resValue "string", "app_name", "Flavors App"
             }
 
             dev {
                 dimension "app_flavors"
                 applicationIdSuffix ".dev"
-                resValue "string", "app_name", "[DEV] Flavors App"
             }
 
             qa {
                 dimension "app_flavors"
                 applicationIdSuffix ".qa"
-                resValue "string", "app_name", "[QA] Flavors App"
             }
         }
     }
